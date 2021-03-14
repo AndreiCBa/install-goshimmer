@@ -8,7 +8,7 @@ You can use this one line command to get a routine that will perform the install
 The following commands will download and run an install.sh script with all steps needed to install GoShimmer according to the guide at [IOTA Foundation repository](https://github.com/iotaledger/goshimmer/wiki/Setup-up-a-GoShimmer-node-(Joining-the-pollen-testnet)). 
 
 ```
-wget https://raw.githubusercontent.com/demichele/install-goshimmer/master/install.sh && chmod 0777 install.sh && ./install.sh
+wget https://raw.githubusercontent.com/AndreiCBa/install-goshimmer/master/install.sh && chmod 0777 install.sh && ./install.sh
 ```
 
 Once the process finishes you will be able to access your Node Dashboard at:
@@ -26,5 +26,4 @@ Login to your VPS and run this command:
 cd /opt/goshimmer && docker-compose down && rm db/* && docker-compose pull && docker-compose up -d
 ```
 
-I will be updating the commands to reflect the installation recommended by the IOTA Foundation
 
